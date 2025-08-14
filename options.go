@@ -7,7 +7,7 @@ type UnicodeTranslateFunc func(string) string
 type Options struct {
 	AutoPrint bool `json:"auto_print,omitempty"`
 
-	CurrencySymbol    string `default:"€ " json:"currency_symbol,omitempty"`
+	CurrencySymbol    string `default:$ " json:"currency_symbol,omitempty"`
 	CurrencyPrecision int    `default:"2" json:"currency_precision,omitempty"`
 	CurrencyDecimal   string `default:"." json:"currency_decimal,omitempty"`
 	CurrencyThousand  string `default:" " json:"currency_thousand,omitempty"`
