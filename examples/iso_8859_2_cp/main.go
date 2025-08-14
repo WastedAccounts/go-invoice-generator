@@ -4,8 +4,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	generator "github.com/angelodlfrtr/go-invoice-generator"
 	"github.com/go-pdf/fpdf"
+	generator "github.com/wastedaccounts/go-invoice-generator"
 )
 
 func main() {
