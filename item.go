@@ -227,7 +227,7 @@ func (i *Item) appendColTo(options *Options, doc *Document) {
 			dAmount := dCost.Mul(discountAmount.Div(decimal.NewFromFloat(100)))
 			discountDesc = fmt.Sprintf("-%s", doc.ac.FormatMoneyDecimal(dAmount))
 		} else {
-			discountTitle = fmt.Sprintf("%s %s", discountAmount, doc.encodeString("€"))
+			discountTitle = fmt.Sprintf("%s %s", discountAmount, doc.encodeString("$"))
 
 			// get percent from amount
 			dPerc := discountAmount.Mul(decimal.NewFromFloat(100))

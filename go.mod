@@ -5,6 +5,7 @@ go 1.23.0
 toolchain go1.24.4
 
 require (
+	github.com/wastedaccounts/go-invoice-generator v0.0.1
 	github.com/creasty/defaults v1.8.0
 	github.com/go-pdf/fpdf v0.9.0
 	github.com/go-playground/validator/v10 v10.27.0
